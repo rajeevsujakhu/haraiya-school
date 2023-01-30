@@ -1,0 +1,89 @@
+.container {
+  line-height: 30px;
+  padding: 0 100px;
+}
+
+.container .img img {
+  width: 150px;
+}
+
+.container .col-10 {
+  margin: auto;
+}
+
+.container h1 {
+  font-size: 92px;
+}
+
+.container hr {
+  height: 2px;
+  color: black;
+}
+
+.container .table table {
+  width: 100%;
+}
+
+.container .table table tbody, .container .table table td, .container .table table tfoot, .container .table table th, .container .table table thead, .container .table table tr {
+  border-style: none;
+}
+
+.container .table span {
+  padding-right: 50px;
+}
+
+.container .contact p {
+  margin-bottom: 6px;
+}
+
+.container .signature h4 {
+  padding: 10px 10px 50px 10px;
+  display: inline-block;
+  border-top: 1px solid black;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 20px;
+  }
+  .container h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container h1 {
+    font-size: 59px;
+  }
+  .container .img img {
+    width: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 43px;
+  }
+  .container .img img {
+    width: 86px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 38px;
+  }
+  .container .img img {
+    width: 74px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 30px;
+  }
+  .container .img img {
+    width: 64px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
